@@ -62,7 +62,7 @@ Apache-2.0（本包）· AI 辅助开发；发布前请自行审阅。
 
 | 文件 | 来源 | 许可证 |
 |---|---|---|
-| `build/tsdown.client.ts`、`build/web-platform.ts` | vendored from [dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) `shared/` | Apache-2.0, Copyright 2026 dsh-web-ui contributors |
-| `src/index.ts` 的 `isLoopbackRequest`（模式改编） | [dsh-aionui-panel](https://github.com/zhu1090093659/dsh-web-ui) host routes / dsh-ssh 同款信任围栏 | BSD-3-Clause, Copyright 2026 dsh-web-ui contributors |
+| `build/tsdown.client.ts`、`build/web-platform.ts` | vendored（已修改）from [dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) `shared/`；其本源为官方 DeepSeek Harness 客户端构建预设 | Apache-2.0（dsh-web-ui）/ MIT © 2026 DeepSeek（本源沿革） |
+| `src/index.ts` 的 `isLoopbackRequest`（模式改编，已注明修改） | [dsh-aionui-panel](https://github.com/zhu1090093659/dsh-web-ui) host routes / dsh-ssh 同款信任围栏 | BSD-3-Clause, Copyright 2026 dsh-web-ui contributors |
 
 其余（进度协议、宿主/客户端逻辑、i18n、测试）为原创。

@@ -14,6 +14,10 @@
  *
  * Vendored from dsh-web-ui (https://github.com/zhu1090093659/dsh-web-ui),
  * shared/tsdown.client.ts — Apache-2.0, Copyright 2026 dsh-web-ui contributors.
+ * Lineage: originally derived from the official DeepSeek Harness checkout
+ * (packages/client/tsdown.client.ts), MIT, Copyright (c) 2026 DeepSeek.
+ * MODIFIED by dsh-dl-pulse: vendored copy, unused CSS-module paths retained,
+ * attribution headers added; see https://github.com/zmf27/dsh-dl-pulse
  */
 import { readFile } from 'node:fs/promises'
 import { existsSync } from 'node:fs'

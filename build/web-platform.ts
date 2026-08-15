@@ -5,6 +5,9 @@
  *
  * Vendored from dsh-web-ui (https://github.com/zhu1090093659/dsh-web-ui),
  * shared/web-platform.ts — Apache-2.0, Copyright 2026 dsh-web-ui contributors.
+ * Lineage: originally derived from the official DeepSeek Harness checkout,
+ * MIT, Copyright (c) 2026 DeepSeek.
+ * MODIFIED by dsh-dl-pulse: vendored copy; see https://github.com/zmf27/dsh-dl-pulse
  */
 
 /** The module specifiers the shell shares into the frozen module table. */
