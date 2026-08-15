@@ -1,0 +1,9 @@
+# dsh-dl-pulse bundle patch: inserts the dual-face plugin row into the web
+# profile roster. The node half (exports ".") runs in the host process
+# (fs.watch on ~/.dsh/downloads + /dsh-dl-pulse routes + SSE), and the
+# dsh.client declaration in package.json makes the browser half
+# (exports "./client") load in the web GUI, mounting a live plain-text
+# progress readout at the left of the composer (conversation.input.dock).
+- insert:
+    - id: dsh-dl-pulse
+      name: dsh-dl-pulse

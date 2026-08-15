@@ -1,0 +1,9 @@
+# deps
+node_modules/
+.pnpm-store/
+
+# build caches (lib/ is committed for git-installability, matching dsh-web-ui convention)
+*.tsbuildinfo
+
+# npm
+*.tgz
