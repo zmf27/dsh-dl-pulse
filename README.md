@@ -56,4 +56,13 @@ pnpm add "dsh-dl-pulse@link:D:/dev/dsh/dsh-web-ui/packages/dsh-dl-pulse"
 
 ## License
 
-BSD-3-Clause。AI 辅助开发；发布前请自行审阅。
+Apache-2.0（本包）· AI 辅助开发；发布前请自行审阅。
+
+## 第三方代码与署名（Third-party notices）
+
+| 文件 | 来源 | 许可证 |
+|---|---|---|
+| `build/tsdown.client.ts`、`build/web-platform.ts` | vendored from [dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) `shared/` | Apache-2.0, Copyright 2026 dsh-web-ui contributors |
+| `src/index.ts` 的 `isLoopbackRequest`（模式改编） | [dsh-aionui-panel](https://github.com/zhu1090093659/dsh-web-ui) host routes / dsh-ssh 同款信任围栏 | BSD-3-Clause, Copyright 2026 dsh-web-ui contributors |
+
+其余（进度协议、宿主/客户端逻辑、i18n、测试）为原创。

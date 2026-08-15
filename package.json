@@ -1,6 +1,6 @@
 {
     "name":  "dsh-dl-pulse",
-    "version":  "0.1.1",
+    "version":  "0.1.2",
     "description":  "DSH Web GUI 瀹炴椂涓嬭浇杩涘害锛氳緭鍏ユ宸︿晶绾枃瀛楁樉绀?~/.dsh/downloads/ 涓嬬殑涓嬭浇杩涘害锛坒s.watch + SSE 鎺ㄩ€侊紝浜嬩欢椹卞姩闆惰疆璇級",
     "type":  "module",
     "main":  "lib/index.js",
@@ -56,7 +56,7 @@
                   "cordis.patch.yml",
                   "README.md"
               ],
-    "license":  "BSD-3-Clause",
+    "license":  "Apache-2.0",
     "repository":  {
                        "type":  "git",
                        "url":  "https://github.com/zmf27/dsh-dl-pulse.git"

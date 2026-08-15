@@ -11,6 +11,9 @@
  * plugin-owned tags on unload). The virtual loader registers each real
  * stylesheet as a watch dependency. The platform module list mirrors the
  * shell's seed table in `./web-platform.ts`.
+ *
+ * Vendored from dsh-web-ui (https://github.com/zhu1090093659/dsh-web-ui),
+ * shared/tsdown.client.ts — Apache-2.0, Copyright 2026 dsh-web-ui contributors.
  */
 import { readFile } from 'node:fs/promises'
 import { existsSync } from 'node:fs'

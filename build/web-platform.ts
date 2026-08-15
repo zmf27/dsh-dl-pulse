@@ -2,6 +2,9 @@
  * Shared browser platform modules. Seeding, bundling externals, and Vite
  * aliases consume this list so their module identities cannot drift.
  * @module @deepseek-ai/dsh-client-web/src/platform
+ *
+ * Vendored from dsh-web-ui (https://github.com/zhu1090093659/dsh-web-ui),
+ * shared/web-platform.ts — Apache-2.0, Copyright 2026 dsh-web-ui contributors.
  */
 
 /** The module specifiers the shell shares into the frozen module table. */
